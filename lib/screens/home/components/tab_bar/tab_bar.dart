@@ -37,11 +37,11 @@ class KTabBar extends StatelessWidget {
         tabs: [
           Align(
             alignment: Alignment.center,
-            child: Text('Part 1'),
+            child: Text('Jobs'),
           ),
           Align(
             alignment: Alignment.center,
-            child: Text('Part 2'),
+            child: Text('Community'),
           ),
         ],
       ),

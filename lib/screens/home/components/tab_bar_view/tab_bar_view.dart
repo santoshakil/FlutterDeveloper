@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_developers/screens/community/community.dart';
+import 'package:flutter_developers/screens/jobs/jobs.dart';
 
 class KTabBarView extends StatelessWidget {
   const KTabBarView({
@@ -14,8 +16,8 @@ class KTabBarView extends StatelessWidget {
       child: TabBarView(
         controller: controller,
         children: [
-          Center(child: Text('Part 1')),
-          Center(child: Text('Part 2')),
+          JobsContainer(),
+          CommunityContainer(),
         ],
       ),
     );
